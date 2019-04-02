@@ -204,7 +204,7 @@ a.btn:hover {
 .header .intro {
   background: #00a5bb;
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   position: relative;
   font-size: 16px;
 }
@@ -212,6 +212,10 @@ a.btn:hover {
 .header .profile {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.header .profile i {
+  margin-right: 10px;
 }
 
 .header .contact-info {
@@ -1088,6 +1092,10 @@ a.btn:hover {
   color: #fff;
 }
 
-.iconfont {
+.header .iconfont {
   font-size: 18px;
+}
+
+.contact-section .iconfont {
+  font-size: 28px;
 }
